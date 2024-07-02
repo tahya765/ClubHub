@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="styles/main.css">
+  <title>Home</title>
+</head>
+
+<body>
+<div class="title-top">
+    <h1 >Welcome to Hunter College!</h1>
+</div>
+<div class = "card-container" id="card-container">
+  <!--This is where our cards display-->
+</div>
+
+<!--Admin login popup-->
+<div id="adminLoginPopup" class="popup">
+  <div class="popup-content">
+    <span class="close">&times;</span>
+    <form class= "newForm" id="adminLoginForm">
+      <div class = "input-group">
+        <div class="input-field">
+          <input type="text" name="username" required placeholder="Enter username...">
+        </div>
+
+        <div class="input-field">
+          <input type="password" id="password" name="password" placeholder="Enter password...">
+        </div>
+        <div class="button-field">
+          <button type="button" onclick="redirectToEmptyPage()"> Sign up</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+</div>
+<script src="scripts/main.js"></script>
+</body>
+
+</html>
